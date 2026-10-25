@@ -1,0 +1,16 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
+crash.log
+
+# Build and temporary files
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
